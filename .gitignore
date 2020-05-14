@@ -1,0 +1,17 @@
+combine_sheets_gui.spec
+excel-sheets-combiner.code-workspace
+__pycache__/combine_sheets_gui.cpython-38.pyc
+packaged/combine_sheets_gui.spec
+packaged/build/combine_sheets_gui/Analysis-00.toc
+packaged/build/combine_sheets_gui/base_library.zip
+packaged/build/combine_sheets_gui/combine_sheets_gui.exe.manifest
+packaged/build/combine_sheets_gui/EXE-00.toc
+packaged/build/combine_sheets_gui/PKG-00.pkg
+packaged/build/combine_sheets_gui/PKG-00.toc
+packaged/build/combine_sheets_gui/PYZ-00.pyz
+packaged/build/combine_sheets_gui/PYZ-00.toc
+packaged/build/combine_sheets_gui/Tree-00.toc
+packaged/build/combine_sheets_gui/Tree-01.toc
+packaged/build/combine_sheets_gui/warn-combine_sheets_gui.txt
+packaged/build/combine_sheets_gui/xref-combine_sheets_gui.html
+packaged/dist/combine_sheets_gui.exe
