@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
 import os
-import ntpath
 import pandas as pd
 import datetime
 
@@ -46,7 +45,6 @@ def create_output_filename(original_filename):
     output_filename = ''.join(strs)
     return output_filename
 
-
 def combine():
     df = pd.concat(pd.read_excel(app.filename, sheet_name=None), ignore_index=True)
     output = create_output_filename(app.filename)
@@ -60,6 +58,6 @@ tk.Label(app, textvariable=app.file_label).pack()
 convert_btn = tk.Button(app, text = "Combine Sheets", command = combine).pack()
 tk.Label(app, textvariable=app.new_file_label).pack()
 
-#quitButton = tk.Button(root, text="Quit", command=client_exit)
+#quitButton = tk.Button(app, text="Quit", command=client_exit)
 #quitButton.pack()
 app.mainloop()
